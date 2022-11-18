@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/*MENU*/
+body{
+    background-color: #F5FEFF;
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    background-color: #DBFDFF;
+    font-weight: bold;
+}
+
+li a{
+    border-bottom: 2px solid transparent;
+}
+
+li a:hover
+{ 
+border-color: #664B39;
+}
+
+#buttonLog{border:2px solid #664B39; color:#664B39;}
+
+#buttonLog:hover{
+    color: #fff;
+    background-color: #B39988;
+    border-color: #B39988;
+}
+
+.logInput{border-color: #664B39;}
+.logInput:focus{
+    border-color: #B39988;
+    box-shadow: 0 0 0 0.25rem rgba(179,153,136,70);
+}
+
+/*LOGIN.PHP*/
+.log{
+    background-image: url(../images/lock.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#overlay {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    color:white;
+    background-color: #0c2a3fb6;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+  }
+
+footer{
+    background-color: #88B0B3;
+    color:white;
+    font-weight: bold;
+}
+
+
+/*GALLERY.PHP*/
+.GalIMG{
+	max-width: 100%;
+  height: 100%;
+}
+.gallery{
+	background-color: #dbddf1;
+	padding: 80px 0;
+}
+.gallery img{
+	background-color: #ffffff;
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
